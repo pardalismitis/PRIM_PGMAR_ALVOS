@@ -8,6 +8,9 @@ O objetivo é permitir análise, revisão técnica e integração com outras bas
 
 ------------------------------------------------------------------------
 
+<img width="430" height="608" alt="image" src="https://github.com/user-attachments/assets/703cbb49-4ae2-4155-9f3e-62be9f42c169" />
+
+
 ## Contexto
 
 Nos arquivos originais, os alvos de conservação aparecem como blocos de texto associados a cada **Unidade de Planejamento (UP)**.
