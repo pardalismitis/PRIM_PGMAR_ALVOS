@@ -341,6 +341,16 @@ names(alvos_long)
 #
 # Cada linha representa um alvo individual associado
 # a uma Unidade de Planejamento e a um componente temático.
+alvos_Integracao <- alvos_long %>%
+  select(Tipo,
+         Conteudo
+         ) %>%
+  distinct(Conteudo, .keep_all = TRUE) %>%
+  rename(
+    COMPONENTE = Tipo,
+    ALVO = Conteudo
+  )
 
+write_csv(alvos_Integracao, "alvos_Processados.csv")
 write_csv(alvos_long, "PGMAR_alvosProcessado.csv")
 
